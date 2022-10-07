@@ -1,0 +1,49 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+form {
+    text-align: center;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-3 {
+    background: #ededed;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.big-td {
+    font-weight:bold;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+table td, table th {
+    vertical-align: middle;
+}
+
+table th {
+    text-align: center;
+}
+
+table tr.item-0 td:first-child, table tr.item-0 td:nth-child(2), table tr.item-0 td:nth-child(3) {
+    font-weight: bold;
+}

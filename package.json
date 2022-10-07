@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "eslint-plugin-lodash": "^7.4.0"
+  }
+}

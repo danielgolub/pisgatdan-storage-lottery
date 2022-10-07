@@ -1,0 +1,21 @@
+env:
+  browser: true
+  commonjs: true
+  es2021: true
+  jquery: true
+extends:
+  - airbnb-base
+  - plugin:lodash/canonical
+overrides: []
+parserOptions:
+  ecmaVersion: latest
+rules:
+  no-console: off
+  lodash/prefer-lodash-method: off
+  no-tabs: off
+  no-param-reassign: off
+  max-len:
+    - 2
+    - 150
+plugins:
+  - lodash
